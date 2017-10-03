@@ -1,22 +1,26 @@
-# Compiled class file
-*.class
-
-# Log file
+target
+.idea
+*.iml
+*.im
+*.ipr
+*.iws
+overlays
+.DS_Store
+.settings
+*.swp
 *.log
+.project
+.classpath
+*.fmd
+.cache
+dependency-reduced-pom.xml
+apps/modifiedFabric8.json
+bin/openshift*/
+.vagrant/
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# lets hide anything large like images etc
+*.md
+*.png
+*.jpg
+*.jepg
+*.svg
